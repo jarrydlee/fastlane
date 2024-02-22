@@ -58,3 +58,5 @@ gemspec(path: ".")
 
 plugins_path = File.join(File.expand_path("..", __FILE__), "fastlane", "Pluginfile")
 eval_gemfile(plugins_path)
+
+gem "avo", "= 3.2.0"
